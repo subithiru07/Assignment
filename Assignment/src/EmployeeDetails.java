@@ -1,10 +1,11 @@
+
 import java.util.ArrayList;
 import java.util.Iterator;
-public class EmpolyeeDetails {
+public class EmployeeDetails {
 	 ArrayList< Employee>Al= new ArrayList< Employee>();
 	 //Constructor to pass and calculate 
 	
-	public  EmpolyeeDetails(int empId, String empName, String Deg, double basic) {
+	public  EmployeeDetails(int empId, String empName, String Deg, double basic) {
 		{ 
 			//double HRA=CalHra(deg, basic);
 			double hra = 0;
@@ -33,3 +34,6 @@ void printDET() {
 		}
 	}
 }
+
+
+
